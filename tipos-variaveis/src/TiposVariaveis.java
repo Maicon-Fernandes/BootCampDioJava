@@ -1,5 +1,6 @@
 public class TiposVariaveis {
-    public static void main(String[] args) throws Exception {
+
+    public static void main(String[] args){
         
         byte Idade = 26;
         short ano = 2024;
@@ -10,5 +11,6 @@ public class TiposVariaveis {
 
         final double VALOR_DE_PI = 3.14; //no java o Final serve para fixar o valor da variavel.
 
+        System.out.print("Idade: "+ Idade);
     }
 }
