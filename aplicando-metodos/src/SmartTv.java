@@ -4,10 +4,10 @@ public class SmartTv {
     int canal = 1;
     int volume = 30;
 
-    public void ligar(){
+    public void turnOn(){
         ligada = true;
     }
-    public void desligar(){
+    public void turnOff(){
         ligada = false;
     }
     public void trocarCanal(int newCanal){

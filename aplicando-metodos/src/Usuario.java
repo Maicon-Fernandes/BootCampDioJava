@@ -9,7 +9,7 @@ public class Usuario {
         
         System.out.println("+----------------");
         System.out.println("Novo Estado da TV.");
-        smartTv.ligar();
+        smartTv.turnOn();
         System.out.println("A televisão está ligada? " + smartTv.ligada);
         smartTv.trocarCanal(30);
         System.out.println("Canal : " + smartTv.canal);
