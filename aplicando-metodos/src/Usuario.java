@@ -12,6 +12,7 @@ public class Usuario {
         smartTv.turnOn();
         System.out.println("A televisão está ligada? " + smartTv.ligada);
         smartTv.trocarCanal(30);
+        smartTv.aumentarCanal();
         System.out.println("Canal : " + smartTv.canal);
         smartTv.aumentarVolume();
         System.out.println("Volume : " + smartTv.volume);
